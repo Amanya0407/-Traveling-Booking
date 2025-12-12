@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+ <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
+ <link href="https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+    <link rel="stylesheet" href="travel.css">
+    <title>Travel</title>
+</head>
+<body>
+   <!--Header section start-->
+
+   <header>
+    <div class="fas fa-bars" id="menu-bar"></div>
+    <a href="#" class="logo"><span>CM</span> WITH US</a>
+
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#book">book</a>
+        <a href="#packages">packages</a>
+        <a href="#services">Services</a>
+        <a href="#gallery">gallery</a>
+        <a href="#review">review</a>
+        <a href="#contact">contact</a>
+    </nav>
+
+    <div class="icon">
+        <i class="fas fa-search" id="search-btn"></i>
+        <i class="fas fa-user" id="login-btn"></i>
+    </div>
+
+    <form action="" class="search-bar-continer">
+        <input type="search" id="search-bar" placeholder="search hear....">
+        <label for="search-bar" class="fas fa-search"></label>
+    </form>
+   </header>
+   <!--Header section End--> 
+
+   
+   <!--Login form container start-->
+
+
+   <div class="login-form-container">
+
+    <i class="fa fa-times" id="form-close"></i>
+    
+    <form action="">
+        <h3>login</h3>
+        <input type="email" class="box" placeholder="enter your email">
+        <input type="password" class="box" placeholder="enter your password">
+        <input type="submit" value="login now" class="btn">
+        <input type="checkbox" id="remember">
+        <label for="remember">remember me</label>
+        <p>forget password? <a href="#">click here</a></p>
+        <p>don't have an account? <a href="#">register now</a></p>
+    </form>
+   </div>
+   <!--Login form container end-->
+
+
+   
+   <!--home section start-->
+
+   <section class="home" id="home">
+
+    <div class="content">
+        <h3>CAPTURE MEMORIES WITH US</h3>
+        <p></p>
+        <a href="#" class="btn">discover more</a>
+    </div>
+
+    <div class="controls">
+        <span class="vid-btn active" data-src="Video/vid1.mp4"></span>
+        <span class="vid-btn" data-src="Video/vid2.mp4"></span>
+        <span class="vid-btn" data-src="Video/vid3.mp4"></span>
+        <span class="vid-btn" data-src="Video/vid4.mp4"></span>
+        <span class="vid-btn" data-src="Video/vid5.mp4"></span>
+        <span class="vid-btn" data-src="Video/vid6.mp4"></span>
+    </div>
+
+    <div class="video-container">
+        <video src="Video/vid1.mp4" id="video-slider" loop autoplay muted></video>
+    </div>
+
+   </section>
+
+
+   <!--home section end-->
+   
+
+<!--book section start-->
+
+
+<section class="book" id="book">
+    <h1 class="heading">
+        <span>b</span>
+        <span>o</span>
+        <span>o</span>
+        <span>k</span>
+        <span class="space"></span>
+        <span>n</span>
+        <span>o</span>
+        <span>w</span>
+    </h1>
+
+    <div class="row">
+    <div class="image">
+        <img src="image/book.png" alt="A">
+    </div>
+    <form action="">
+        <div class="inputBox">
+            <h3>where to</h3>
+            <input type="text" placeholder="place name">
+        </div>
+        <div class="inputBox">
+            <h3>how many</h3>
+            <input type="number" placeholder="number of guests">
+        </div>
+        <div class="inputBox">
+            <h3>arrivals</h3>
+            <input type="date">
+        </div>
+        <div class="inputBox">
+            <h3>leaving</h3>
+            <input type="date">
+        </div>
+        <input type="submit" class="btn" value="book now">
+    </form>
+</div>
+</section>
+
+
+<!--book section end-->
+
+
+
+<!--Packag section start-->
+
+
+<section class="packages" id="packages">
+<h1 class="heading">
+    <span>p</span>
+    <span>a</span>
+    <span>c</span>
+    <span>k</span>
+    <span>a</span>
+    <span>g</span>
+    <span>e</span>
+    <span>s</span>
+</h1>
+
+<div class="box-container">
+
+    <div class="box">
+        <img src="image/Packages/Ladakh.jpg" alt="">
+        <div class="content">
+            <h3><i class="fas fa-map-marker-alt"></i> Ladakh</h3>
+            <p>Ladakh is breathtaking, serene, adventurous, rugged, spiritual, remote, mesmerizing, high-altitude, cultural, and pristine. </p>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <div class="price">20,000 Rs <span>25,000</span></div>
+            <a href="#book" class="btn">book now</a>
+        </div>
+    </div>
+
+
+    <div class="box">
+        <img src="image/Packages/Jammu_and _Kashmir.jpg" alt="">
+        <div class="content">
+            <h3><i class="fas fa-map-marker-alt"> </i>  Jammu and Kashmir</h3>
+            <p>Jammu and Kashmir, a picturesque region, blends rich culture, stunning landscapes, history, and diverse traditions.</p>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <div class="price">18,000 Rs <span>20,000</span></div>
+            <a href="#book" class="btn">book now</a>
+        </div>
+    </div>
+
+
+    <div class="box">
+        <img src="image/Packages/Manali.jpg" alt="">
+        <div class="content">
+            <h3><i class="fas fa-map-marker-alt"></i> Manali</h3>
+            <p>Manali is a beautiful, snowy, adventurous, peaceful, scenic, vibrant, chilly, charming, picturesque. </p>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <div class="price">22,000 Rs<span>25,000</span></div>
+            <a href="#book" class="btn">book now</a>
+        </div>
+    </div>
+
+
+    <div class="box">
+        <img src="image/Packages/Punjab.jpg" alt="">
+        <div class="content">
+            <h3><i class="fas fa-map-marker-alt"></i> Golden Temple</h3>
+            <p>The Golden Temple is a sacred, stunning, peaceful, spiritual, golden, historic, revered, iconic, magnificent..</p>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <div class="price">10,000 Rs <span>12,000</span></div>
+            <a href="#book" class="btn">book now</a>
+        </div>
+    </div>
+
+
+
+    <div class="box">
+        <img src="image/Packages/Delhi.jpg" alt="">
+        <div class="content">
+            <h3><i class="fas fa-map-marker-alt"></i> Lotus Temple</h3>
+            <p>The Lotus Temple is a stunning, peaceful, and architecturally unique landmark. </p>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <div class="price">8000 Rs<span>10,000</span></div>
+            <a href="#book" class="btn">book now</a>
+        </div>
+    </div>
+
+
+
+    <div class="box">
+        <img src="image/Packages/Jaipur.jpg" alt="">
+        <div class="content">
+            <h3><i class="fas fa-map-marker-alt"></i> Jaipur</h3>
+            <p>Jaipur, the Pink City, is vibrant, historic, cultural, royal, architectural, bustling, colorful, and majestic.</p>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <div class="price">20,000 Rs <span>22,000</span></div>
+            <a href="#book" class="btn">book now</a>
+        </div>
+    </div>
+
+    <div class="box">
+        <img src="image/Packages/India gate.jpg" alt="">
+        <div class="content">
+            <h3><i class="fas fa-map-marker-alt"></i> Delhi</h3>
+            <p>Delhi is historic, vibrant, chaotic, diverse, political, cultural, crowded, modern, spicy, and dynamic. </p>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <div class="price">5000 Rs <span>7000</span></div>
+            <a href="#book" class="btn">book now</a>
+        </div>
+    </div>
+
+    <div class="box">
+        <img src="image/Packages/Vrindavan.jpg" alt="">
+        <div class="content">
+            <h3><i class="fas fa-map-marker-alt"></i> Vrindavan</h3>
+            <p>Vrindavan, sacred, divine, Krishna, Radha, temples, pilgrimage, devotion, serene, spiritual. </p>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <div class="price">25,000 Rs <span>30,000</span></div>
+            <a href="#book" class="btn">book now</a>
+        </div>
+    </div>
+
+    <div class="box">
+        <img src="image/Packages/ram-mandir-1.jpg" alt="">
+        <div class="content">
+            <h3><i class="fas fa-map-marker-alt"></i>Ayodhya</h3>
+            <p>Ayodhya is a historic, spiritual city, known for its temples, culture, heritage, and religious significance. </p>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <div class="price">20,000 Rs <span>22,000</span></div>
+            <a href="#book" class="btn">book now</a>
+        </div>
+    </div>
+
+</div>
+
+</section>
+
+
+<!--Packag section end-->
+
+<!--Services section start-->
+
+
+<section class="services" id="services">
+
+    <h1 class="heading">
+        <span>s</span>
+        <span>e</span>
+        <span>r</span>
+        <span>v</span>
+        <span>i</span>
+        <span>c</span>
+        <span>e</span>
+        <span>s</span>
+    </h1>
+
+    <div class="box-container">
+
+    
+        <div class="box">
+            <a href="/1/affordabll.html" target="_blank">
+            <i class="fas fa-hotel"></i>
+            <h3>affordable hotels</h3>
+        </a>
+            <p>We provide affordable hotels with comfortable stays, excellent service, and convenient locations. Our budget-friendly accommodations ensure a relaxing experience without compromising quality. Book with us for a cost-effective yet enjoyable travel experience!</p>
+        </div>
+
+        <div class="box">
+            <a href="">
+            <i class="fas fa-utensils"></i>
+            <h3>food and drinks</h3>
+        </a>
+            <p>We offer delicious and freshly prepared food and drinks to make your stay even more enjoyable. Our menu includes a variety of local and international dishes made with high-quality ingredients. Experience great taste and exceptional service with us!</p>
+        </div>
+
+        <div class="box">
+            <a href="">
+            <i class="fas fa-bullhorn"></i>
+            <h3>safty guide</h3>
+        </a>
+            <p>We prioritize your safety by providing essential guidelines and 24/7 support during your stay. Our hotels follow strict hygiene protocols, secure accommodations, and emergency assistance services. Enjoy a worry-free stay with our dedicated security and safety measures!</p>
+        </div>
+
+        <div class="box">
+            <a href="">
+            <i class="fas fa-globe-asia"></i>
+            <h3>all india</h3>
+        </a>
+            <p>We offer seamless travel experiences across India, covering top destinations with affordable packages. Enjoy a hassle-free journey with personalized itineraries and expert assistance. Travel with us for a memorable and comfortable all-India adventure!</p>
+        </div>
+
+        <div class="box">
+            <a href="">
+            <i class="fas fa-plane"></i>
+            <h3>fastest travel</h3>
+        </a>
+            <p>We provide the fastest travel services with quick bookings, efficient routes, and seamless transportation. Our well-planned itineraries ensure you reach your destination comfortably and on time. Travel faster and smarter with us!</p>
+        </div>
+
+        <div class="box">
+            <a href="">
+            <i class="fas fa-hiking"></i>
+            <h3>Adventures</h3>
+        </a>
+            <p>Experience the thrill of adventure travel with us, exploring breathtaking landscapes and exciting destinations. From trekking and rafting to wildlife safaris and paragliding, we offer safe and well-planned adventure packages. Get ready for an unforgettable journey filled with excitement and discovery!</p>
+        </div>
+
+    </div>
+</section>
+
+<!--Services section end-->
+
+
+<!--Gallery section start-->
+
+<section class="gallery" id="gallery">
+
+    <h1 class="heading">
+        <span>g</span>
+        <span>a</span>
+        <span>l</span>
+        <span>l</span>
+        <span>e</span>
+        <span>r</span>
+        <span>y</span>
+    </h1>
+
+    <div class="box-container">
+
+
+    <div class="box">
+        <img src="image/Gallery/Rameshwaram.jpg" alt="">
+        <div class="content">
+            <h3>Rameshwaram</h3>
+            <p>"Rameshwaram—a sacred land where devotion meets the sea, and every wave whispers tales of faith and history."</p>
+            <a href="https://en.wikipedia.org/wiki/Rameswaram" target="_blank" class="btn">see more</a>
+        </div>
+    </div>
+
+
+    <div class="box">
+        <img src="image/Gallery/Krang Shuri Waterfalls.jpg" alt="">
+        <div class="content">
+           <h3>Krang Shuri</h3>
+           <p>"Krang Shuri Waterfalls—where nature’s beauty cascades in crystal-clear blue."</p>
+           <a href="https://en.wikipedia.org/wiki/West_Jaintia_Hills_district" target="_blank" class="btn">see more</a>
+       </div>
+    </div>
+
+    <div class="box">
+        <img src="image/Gallery/Gulmarg.jpg" alt="">
+        <div class="content">
+           <h3>Gulmarg</h3>
+           <p>"Gulmarg—where snow-capped peaks meet lush meadows, creating a paradise for adventure and serenity alike."</p>
+           <a href="https://en.wikipedia.org/wiki/Gulmarg" target="_blank" class="btn">see more</a>
+       </div>
+    </div>
+
+    <div class="box">
+        <img src="image/Gallery/Vrindavan.jpg" alt="">
+        <div class="content">
+           <h3>prem mandir</h3>
+           <p>"Prem Mandir is a divine symbol of love and devotion, where spirituality meets architectural brilliance."</p>
+           <a href="https://en.wikipedia.org/wiki/Prem_Mandir,_Vrindavan" target="_blank" class="btn">see more</a>
+       </div>
+    </div>
+
+    <div class="box">
+        <img src="image/Gallery/Mumbai.jpg" alt="">
+        <div class="content">
+           <h3>Mumbai</h3>
+           <p>"Mumbai—where dreams take flight, the sea meets the skyline, and every street tells a story."</p>
+           <a href="https://en.wikipedia.org/wiki/Mumbai" target="_blank" class="btn">see more</a>
+       </div>
+    </div>
+
+    <div class="box">
+        <img src="image/Gallery/taj mahal.jpg" alt="">
+        <div class="content">
+           <h3>taj mahal</h3>
+           <p>"The Taj Mahal is a timeless symbol of love, where marble whispers the story of eternal devotion."</p>
+           <a href="https://en.wikipedia.org/wiki/Taj_Mahal" target="_blank" class="btn">see more</a>
+       </div>
+    </div>
+
+    <div class="box">
+        <img src="image/Gallery/K.jpg" alt="">
+        <div class="content">
+           <h3>Varanasi</h3>
+           <p>"Varanasi – where the Ganges flows with history, spirituality, and the eternal essence of life and death."</p>
+           <a href="https://en.wikipedia.org/wiki/Varanasi" target="_blank" class="btn">see more</a>
+       </div>
+    </div>
+
+    <div class="box">
+        <img src="image/Gallery/ram-mandir-1.jpg" alt="">
+        <div class="content">
+           <h3>Ayodhya</h3>
+           <p>"Ayodhya, the birthplace of Lord Rama, is a city steeped in history, spirituality, and timeless devotion."</p>
+           <a href="https://en.wikipedia.org/wiki/Ayodhya" target="_blank" class="btn">see more</a>
+       </div>
+    </div>
+
+</div>
+
+</section>
+
+<!--Gallery section end-->
+
+
+
+<!--review section start-->
+
+
+<section class="review" id="review">
+
+    <h1 class="heading">
+        <span>r</span>
+        <span>e</span>
+        <span>v</span>
+        <span>i</span>
+        <span>e</span>
+        <span>w</span>
+    </h1>
+
+    <div class="swiper-container review-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="image/Review/Aman.jpg" alt="">
+                    <h3>Aman</h3>
+                    <p>"An unforgettable experience! Everything was well-organized, from bookings to sightseeing. Highly recommend!"</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="image/Review/IMG20240818182129.jpg" alt="">
+                    <h3>Amanya</h3>
+                    <p>"Top-notch service, great hospitality, and seamless travel arrangements. Can't wait to plan my next trip!"</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="image/Review/p.jpg" alt="">
+                    <h3>Piyush</h3>
+                    <p>"The entire trip was smooth and stress-free. Fantastic guides, comfortable accommodations, and wonderful memories!"</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="image/Review/S.JPG" alt="">
+                    <h3>Tumtum</h3>
+                    <p>"From start to finish, everything was perfect. I felt taken care of every step of the way. Will definitely travel again!"</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="image/Review/R.JPG" alt="">
+                    <h3>Rudra</h3>
+                    <p>"Amazing experience with exceptional service. All the details were handled perfectly. Truly a hassle-free journey!"</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="image/Review/a.jpg" alt="">
+                    <h3>Akhilesh</h3>
+                    <p>"Everything was beyond my expectations! Well-planned, safe, and fun-filled adventures."</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            
+
+        </div>
+
+    </div>
+
+</section>
+
+<!--review section end-->
+
+<!--contact section start-->
+
+
+<section class="contact" id="contact">
+
+    <h1 class="heading">
+        <span>c</span>
+        <span>o</span>
+        <span>n</span>
+        <span>t</span>
+        <span>a</span>
+        <span>c</span>
+        <span>t</span>
+    </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="image/contact.png" alt="">
+        </div>
+
+        <form action="">
+            <div class="inputBox">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email">
+            </div>
+            <div class="inputBox">
+                <input type="text" placeholder="Phone Number">
+                <input type="text" placeholder="subject">
+            </div>
+            <textarea placeholder="message" name="" id="" cols="30" rows="10"></textarea>
+            <input type="submit" class="btn" value="send message">
+        </form>
+
+    </div>
+
+</section>
+
+<!--contact section end-->
+
+<!--Brand section start-->
+
+
+<section class="brand-container">
+
+    <div class="swiper-container brand-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="image/brand/bisleri.png" alt=""></div>
+            <div class="swiper-slide"><img src="image/brand/mc.png" alt=""></div>
+            <div class="swiper-slide"><img src="image/brand/Do.png" alt=""></div>
+            <div class="swiper-slide"><img src="image/brand/ta.png" alt=""></div>
+            <div class="swiper-slide"><img src="image/brand/wowomomo.png" alt=""></div>
+            <div class="swiper-slide"><img src="image/brand/starbucks.png" alt=""></div>
+            <div class="swiper-slide"><img src="image/brand/kfc.png" alt=""></div>
+            <div class="swiper-slide"><img src="image/brand/redbull.png" alt=""></div>
+            <div class="swiper-slide"><img src="image/brand/haldiram.png" alt=""></div>
+        </div>
+    </div>
+
+</section>
+
+<!--Brand section end-->
+
+<!--footer section start-->
+
+
+<section class="footer">
+
+    <div class="box-container">
+
+    <div class="box">
+        <h3>about us</h3>
+        <p>“We make travel effortless by connecting you to unforgettable destinations, seamless bookings, and personalized journeys. Your adventure begins here—discover, explore, and experience the world with comfort, trust, and excitement.”</p>
+    </div>
+    <div class="box">
+        <h3>branch locations</h3>
+        <a href="https://maps.app.goo.gl/5mMQN9hw9JNaRQa78" target="_blank">Lucknow</a>
+        <a href="https://maps.app.goo.gl/JZ9DyvDqcWyhBrgS9" target="_blank">Delhi</a>
+        <a href="https://maps.app.goo.gl/dixVk7GMk7HQGRo76" target="_blank">Bengaluru</a>
+        <a href="https://maps.app.goo.gl/fgx27oscPwyvRmUM9" target="_blank">Goa</a>
+    </div>
+    <div class="box">
+        <h3>quick link</h3>
+        <a href="#home">home</a>
+        <a href="#book">book</a>
+        <a href="#packages">packages</a>
+        <a href="#services">Services</a>
+        <a href="#gallery">gallery</a>
+        <a href="#review">review</a>
+        <a href="#contact">contact</a>
+    </div>
+    <div class="box">
+        <h3>follow us</h3>
+        <a href="#">instagram</a>
+        <a href="#">facebook</a>
+        <a href="#">twitter</a>
+        <a href="#">linkedin</a>
+    </div>
+</div>
+
+<div class="credit">credit by <span>CM</span> | all rights reserved!</div>
+
+</section>
+
+
+<!--footer section end-->
+
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+   <script src="travel.js"></script>
+
+</body>
+
+</html>
